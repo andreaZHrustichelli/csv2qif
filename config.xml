@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+ <file-csv>
+  <csv-has-title>yes</csv-has-title>
+  <index-column-D>0</index-column-D>
+  <index-column-M>9</index-column-M>
+  <index-column-T>2</index-column-T>
+  <index-column-L></index-column-L>
+  <index-column-N>7</index-column-N>
+ </file-csv>
+ <qif-header>
+  <type>!Type:Bank</type>
+  <account-name>Assets:Bank:Tokyo Bank</account-name>
+  <account-description>My Tokyo Bank Account</account-description>
+ </qif-header> 
+ <categories>
+  <category name="ENTRATE:EMULMENTI">
+    <text>stipendio</text>
+  </category>
+  <category name="USCITE:SPESE BANCARIE">
+    <text>bollo</text>
+    <text>bolli</text>
+  </category>
+  <category name="USCITE:SPESA">
+    <text>IPERCOOP</text>
+    <text>CONAD</text>
+    <text>LIDL</text>
+  </category>
+ </categories>
+</config>
